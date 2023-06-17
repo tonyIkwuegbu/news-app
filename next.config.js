@@ -1,4 +1,8 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
 
-module.exports = nextConfig
+module.exports = {
+	reactStictMode: true,
+	experimental: {
+		appDir: true,
+	},
+};
